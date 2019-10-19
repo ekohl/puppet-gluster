@@ -8,6 +8,7 @@ describe 'gluster server' do
        class { 'gluster':
          client  => false,
          server  => true,
+         release => 7,
        }
 
       EOS
